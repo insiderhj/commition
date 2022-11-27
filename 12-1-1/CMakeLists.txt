@@ -1,0 +1,5 @@
+SET ( CMAKE_CXX_STANDARD 11 )
+SET ( TARGET swap )
+SET ( SRCS swap.cpp )
+
+ADD_EXECUTABLE( ${TARGET} ${SRCS} )
